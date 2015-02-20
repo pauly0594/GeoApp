@@ -37,7 +37,7 @@ var app = {
 },
 onSuccess: function(position) {
    var geo = document.getElementById('geo');
-   var getG = document.getElementById('getGeo');
+   var getGeo = document.getElementById('getGeo');
 
    geo.innerHTML = 'geo data:'
    var geoElement = document.getElementById('geolocationData');
