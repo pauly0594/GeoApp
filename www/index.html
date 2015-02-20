@@ -21,11 +21,11 @@
 
 
 
-                <p id="deviceName"class = "event"></p>
-                <p id="version"class = "event"></p>
+                <p id="deviceName"class="event"></p>
+                <p id="version"class="event"></p>
                 <p id="mobilePlatform"class="event"></p>
                 <p id="platformVersion"class="event"></p>
-                <p id="uuid"class = "event"></p>
+                <p id="uuid" class="event"></p>
 
                 <button id="getGeo" class="event"> Get Location </button>
                 <p id="geo" class="event"></p>
@@ -39,7 +39,11 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
-app.initialize();
+        app.initialize();
+        </script>
+         <script type="text/javascript">
+
+
             $("#info").on('click' , function(e){
               e.preventDefault();
               app.getInfo();
