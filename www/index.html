@@ -16,11 +16,7 @@
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
                 <br><br><br>
-
                 <button id="info"class="event"> Get Info </button>
-
-
-
                 <p id="deviceName"class="event"></p>
                 <p id="version"class="event"></p>
                 <p id="mobilePlatform"class="event"></p>
@@ -42,8 +38,6 @@
         app.initialize();
         </script>
          <script type="text/javascript">
-
-
             $("#info").on('click' , function(e){
               e.preventDefault();
               app.getInfo();
